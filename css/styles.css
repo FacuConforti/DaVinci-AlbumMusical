@@ -74,25 +74,26 @@ a{
     background-color: #101f2c;
     color: white;
     width: 100vw;
-    height: 100px;
+    height: 50px;
 }
 
 /* GRID CANCIONES DESTACADAS*/
 .grid-canciones{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 }
 
-.canciones-div1 { grid-area: 1 / 1 / 5 / 5; }
-.canciones-div2 { grid-area: 1 / 5 / 3 / 7; }
-.canciones-div3 { grid-area: 1 / 7 / 3 / 9; }
-.canciones-div4 { grid-area: 1 / 9 / 3 / 11; }
-.canciones-div5 { grid-area: 3 / 5 / 5 / 7; }
-.canciones-div6 { grid-area: 3 / 7 / 5 / 9; }
-.canciones-div7 { grid-area: 3 / 9 / 5 / 11; }
+.canciones-div1 { grid-area: 1 / 1 / 4 / 5; }
+.canciones-div2 { grid-area: 1 / 5 / 4 / 7; }
+.canciones-div3 { grid-area: 1 / 7 / 4 / 9; }
+.canciones-div4 { grid-area: 1 / 9 / 4 / 11; }
+.canciones-div5 { grid-area: 4 / 7 / 7 / 11; }
+.canciones-div6 { grid-area: 4 / 5 / 7 / 7; }
+.canciones-div7 { grid-area: 4 / 3 / 7 / 5; }
+.canciones-div8 { grid-area: 4 / 1 / 7 / 3; }
 
 .box-canciones{
     padding: 5px;
@@ -100,13 +101,13 @@ a{
 }
 
 .spotify-cancion {
-    width: 100%;
-    height: 100%;
+    width: 352px;
+    height: 400px;
 }
 
 .iframe-youtube{
     width: 705px;
-    height: 100%;
+    height: 350px;
     border-radius: 5px; 
 
 }

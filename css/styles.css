@@ -51,8 +51,6 @@ a{
 
 #main-informacion{
     background-color: #E0E1DD;
-    padding: 0px;
-    
 }
 
 .section{
@@ -62,12 +60,21 @@ a{
     flex-direction: column;
 }
 
-.banner-principal{
-    width: 100%;
-    height: auto;
-}
 /* CANCIONES DESTACADAS */
 
+/* TITULO CANCIONES DESTACADAS*/
+
+.titulos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #101f2c;
+    color: white;
+    width: 100vw;
+    height: 100px;
+}
+
+/* GRID CANCIONES DESTACADAS*/
 .grid-canciones{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
@@ -98,6 +105,7 @@ a{
     width: 705px;
     height: 100%;
     border-radius: 5px; 
+
 }
 
 /* SPOTIFY */
@@ -106,6 +114,7 @@ a{
     width: 95vw;
     height: 700px;
     max-height: 100%; 
+    margin: 15px;
 }
 
 /* SOBRE EL ALBUM */

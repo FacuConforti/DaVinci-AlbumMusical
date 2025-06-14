@@ -8,6 +8,7 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 100px
 }
 
 a{
@@ -16,14 +17,16 @@ a{
 }
 
 #header-general{
-    background-color: #101f2c;
-    color: white;
-    padding: 20px;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     justify-content: space-around;
+    background-color: #101f2c;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
 }
 
 #nav{
